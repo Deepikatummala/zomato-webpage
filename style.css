@@ -99,7 +99,7 @@ cursor: pointer;
 .explore__menu__lists {
   margin-top: 45px;
   display: flex;
-  flex-wrap: nowrap;
+  
   gap: 15px;
   padding: 0 30px;
 }
