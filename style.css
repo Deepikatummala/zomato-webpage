@@ -43,12 +43,14 @@ cursor: pointer;
 }
 
 .container {
+  display: inline-block;
   max-width: 100%;
   padding: 20px 20px;
   margin: 0 auto;
 }
 
 .hero__image__container {
+  display: inline-block;
   width: 100%;
 }
 
@@ -178,7 +180,7 @@ gap: 1em;
   }
 
   .restaurant__container {
-      display: flex;
+      display: inline-block;;
       justify-content: space-between;
       align-items: center;
   }
@@ -187,11 +189,7 @@ gap: 1em;
       margin: 4rem 0;
   }
 
-
-
 }
-
-
 
 
 @media (min-width: 1024px) {
@@ -242,6 +240,7 @@ align-items: flex-start;
 }
 
 .restaurant__image__row {
+  display: inline-flex;
   width: 100%;
 }
 
