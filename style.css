@@ -94,12 +94,43 @@ cursor: pointer;
   color: #1d3557;
 }
 
+.restaurant__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #1d3557;
+}
+
+
+
+
+
+.restaurant__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #1d3557;
+}
+
+
+.restaurant__image__row1 {
+  display:flex;
+
+gap: 1em;
+}
+
+.restaurant__image__row2 {
+  display:flex;
+gap: 1em;
+
+}
+
 @media (min-width: 768px) {
 
 .explore__menu__lists {
   margin-top: 45px;
   display: flex;
-  
+
   gap: 15px;
   padding: 0 30px;
 }
@@ -145,6 +176,19 @@ cursor: pointer;
     flex-direction: row-reverse;
     align-items: center;
   }
+
+  .restaurant__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .restaurant__container {
+      margin-top: 3rem;
+      margin: 4rem 0;
+  }
+
+
+
 }
 
 
@@ -181,6 +225,75 @@ height: 100%;
   }
 .explore__menu__text {
   font-size: 48px;
+}
+.restaurant__container {
+  max-width: 100%;
+  padding: 20px 20px;
+  margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+}
+.restaurant__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #1d3557
+}
+
+.restaurant__image__row {
+  width: 100%;
+}
+
+.restaurant__description {
+  width: 100%;
+}
+
+
+
+
+
+}
+
+.rest1_image {
+
+
+      border-radius: 4px;
+      margin: 0 5px;
+      width: 150px;
+      height: 80px;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.rest2_image {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.rest3_image {
+
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.rest4_image {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
 }
 
 }
