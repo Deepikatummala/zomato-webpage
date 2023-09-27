@@ -167,6 +167,11 @@ justify-content: flex-end;
     margin:auto;
 }
 
+.primary:hover {
+border: 2px solid #ff6767;
+cursor: pointer;
+}
+
 .email__input {
   border: 1px solid #ee89a0;
       background-color: #fcedf0;
